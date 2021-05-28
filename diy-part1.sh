@@ -16,3 +16,11 @@
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
+#jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus package/luci-app-jd-dailybonus
+
+#helloworld
+git clone https://github.com/jerrykuku/luci-app-vssr package/luci-app-vssr
+
+#ttnode
+git clone https://github.com/jerrykuku/luci-app-ttnode package/luci-app-ttnode
